@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ry Zone Services</title>
+    <style>
+      *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: sans-serif;
+      }
+      body{
+        background-color:  #050e2d;
+      }
+      .container{
+        width: 100%;
+        height: 100vh;
+        padding: 0 8%;
+      }
+      .container h1{
+        color: white;
+        text-align: center;
+        padding-top: 10%;
+        margin-bottom: 60px;
+        font-weight: 600;
+        position: relative;
+        font-style: bold;
+      }
+      .container h1::after{
+        content: '';
+        background: #303ef7;
+        width: 100px;
+        height: 5px;
+        position: absolute;
+        bottom: -5px;
+        left: 50%;
+        transform: translateX(-50%);
+      }
+      .row{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 30px;
+      }
+      .service{
+        text-align: center;
+        padding: 25px 10px;
+        border-radius: 5px;
+        font-size: 14px;
+        cursor: pointer;
+        background: transparent;
+        transition: transform 0.5s, background 0.5s;
+      }
+      .service p{
+        color: white;
+      }
+      .service ion-icon{
+        font-size: 40px;
+        margin-bottom: 10px;
+        color: aqua;
+      }
+      .service h2{
+        font-weight: 600;
+        margin-bottom: 8px;
+        color: aquamarine;
+      }
+      .service:hover{
+        background: aqua;
+        color: white;
+        transform: scale(1.05);
+      }
+      .service:hover ion-icon{
+        color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Ry Zone Services</h1>
+      <div class="row">
+        <div class="service">
+          <ion-icon name="accessibility-outline"></ion-icon>
+          <h2>Account</h2>
+          <p>Ritesh thakare owner of Ry Zone servival battle ground video game.</p>
+        </div>
+        <br>
+        <div class="service">
+          <ion-icon name="cog-outline"></ion-icon>
+          <h2>Setting</h2>
+          <p>Ritesh thakare owner of Ry Zone servival battle ground video game.</p>
+        </div>
+        <br>
+        <div class="service">
+          <ion-icon name="bug-outline"></ion-icon>
+          <h2>glitches</h2>
+          <p>Ritesh thakare owner of Ry Zone servival battle ground video game.</p>
+        </div>
+        <br>
+        <div class="service">
+          <ion-icon name="radio-outline"></ion-icon>
+          <h2>Audio</h2>
+          <p>Ritesh thakare owner of Ry Zone servival battle ground video game.</p>
+        </div>
+        <br>
+        <div class="service">
+          <ion-icon name="locate-outline"></ion-icon>
+          <h2>Maps</h2>
+          <p>Ritesh thakare owner of Ry Zone servival battle ground video game.</p>
+        </div>
+        <br>
+        <div class="service">
+          <ion-icon name="call-outline"></ion-icon>
+          <h2>Contact us</h2>
+          <p>Ritesh thakare owner of Ry Zone servival battle ground video game.</p>
+        </div>
+        <br>
+        <div class="service">
+          <ion-icon name="radio-outline"></ion-icon>
+          <h2>Audio</h2>
+          <p>Ritesh thakare owner of Ry Zone servival battle ground video game.</p>
+        </div>
+        <br>
+        <div class="service">
+          <ion-icon name="locate-outline"></ion-icon>
+          <h2>Maps</h2>
+          <p>Ritesh thakare owner of Ry Zone servival battle ground video game.</p>
+        </div>
+      </div>
+    </div>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  </body>
+</html>
